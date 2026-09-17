@@ -12,6 +12,8 @@ body{
     min-height: 100vh;
     margin: 0;
     background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    flex-direction: column;
+    text-transform: capitalize;
 }
 
 .container{
@@ -20,8 +22,9 @@ body{
    
 }
 
+
 .panel{
-    
+    text-transform: capitalize;
     height: 80vh;
     background-size: cover;
     margin: 10px;
@@ -34,11 +37,12 @@ body{
 }
 
 .panel h3{
-    color: white;
+    color: black;
     position: absolute;
     bottom: 20px;
     left: 20px;
     opacity: 0;
+    font-size: 1.7rem;
 }
 .active{
     flex: 5;
